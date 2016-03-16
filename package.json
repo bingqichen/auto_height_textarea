@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "高度自适应多行文本框",
   "main": "none",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "shelljs": "^0.6.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -1,9 +1,6 @@
 # OS X
 .DS_Store*
 
-#push.js
-push.js
-
 #npm
 node_modules
 node_modules/
