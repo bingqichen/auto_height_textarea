@@ -1,0 +1,47 @@
+.textarea-wrap{
+	position: relative;
+}
+.textarea-hide{
+	width: 100%;
+	padding: 6px 7px;
+	visibility: hidden;
+	height: auto;
+	font-size: 12px;
+	line-height: 1.5;
+	border: 1px solid #d9d9d9;
+	box-sizing: border-box;
+}
+.textarea-show{
+	width: 100%;
+	padding: 6px 7px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	resize: none;
+	cursor: text;
+	font-size: 12px;
+	line-height: 1.5;
+	color: #666;
+	background-color: #fff;
+	border: 1px solid #d9d9d9;
+	border-radius: 6px;
+	box-sizing: border-box;
+}
+.textarea-show:hover{
+  	border-color: #57c5f7;
+}
+.textarea-show:focus{
+    border-color: #57c5f7;
+    outline: 0;
+    box-shadow: 0 0 0 2px #d5f1fd;
+}
+.textarea-show::-webkit-input-placeholder {
+    font-size: 12px;
+    font-weight: 100;
+}
+.textarea-show:disabled{
+    border-color: #e1e1e1;
+    background-color: #f3f5f7;
+    cursor: no-drop
+}
