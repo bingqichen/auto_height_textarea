@@ -3,8 +3,8 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
-	<link rel="stylesheet" href="text-component.css">
+	<title>自适应高度多行文本框</title>
+	<link rel="stylesheet" href="src/text-component.css">
 	<style type="text/css">
 		#main{
 			width: 200px;
@@ -14,11 +14,11 @@
 
 <body>
 	<div id="main">
-		<vue-txt :content.sync="content"></vue-txt>
+		<vue-txt :content.sync="content" msg="请输入文本"></vue-txt>
 	</div>
 
-	<script src="vue.js"></script>
-	<script src="text-component.js"></script>
+	<script src="src/vue.js"></script>
+	<script src="src/text-component.js"></script>
 	<script type="text/javascript">
 		var text = window.components.textarea
 
