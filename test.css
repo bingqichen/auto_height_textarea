@@ -1,0 +1,23 @@
+.expandingArea {
+	position: relative;
+	top: 50px;
+}
+
+.hidden {
+	width: 100%;
+	padding: 0;
+	visibility: hidden;
+	height: auto;
+	font-size: 12px;
+}
+
+.input {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	padding: 0;
+	resize: none;
+	font-size: 12px;
+}
