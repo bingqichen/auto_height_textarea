@@ -1,0 +1,27 @@
+{
+  "name": "auto_height_textaera",
+  "version": "1.0.0",
+  "description": "高度自适应多行文本框",
+  "main": "none",
+  "dependencies": {
+    "shelljs": "^0.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bingqichen/auto_height_textarea.git"
+  },
+  "keywords": [
+    "textarea",
+    "autoheight"
+  ],
+  "author": "BingqiChen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bingqichen/auto_height_textarea/issues"
+  },
+  "homepage": "https://github.com/bingqichen/auto_height_textarea#readme"
+}
